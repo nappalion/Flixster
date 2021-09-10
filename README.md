@@ -22,7 +22,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [ ] (2pts) For popular movies (i.e. a movie voted for more than 5 stars), the full backdrop image is displayed. Otherwise, a poster image, the movie title, and overview is listed. Use Heterogenous RecyclerViews and use different ViewHolder layout files for popular movies and less popular ones.
 
 ### App Walkthough GIF
-<img src="GIF HERE" width=250><br>
+<img src="Flix Pt.1 Walkthrough" width=250><br>
 
 ### Notes
 I was missing the 'implementation "androidx.recyclerview:recyclerview:1.2.1"' that was mentioned, so I tried adding it myself into the build.gradle module app but the program broke. I removed it and everything worked fine after that. Overall, the experience was very smooth. 

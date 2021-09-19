@@ -16,10 +16,11 @@
 
     <TextView
         android:id="@+id/tvTitle"
+        android:transitionName="title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="30sp"
-        tools:text="Jurassic Hunt" />
+        tools:text="Shang-Chi and the Legend of the Ten Rings" />
 
     <RatingBar
         android:id="@+id/ratingBar"
@@ -32,7 +33,8 @@
 
     <TextView
         android:id="@+id/tvOverview"
+        android:transitionName="overview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="A ragtag group of mercenaries and soldiers arrives at a mysterious reserve to hunt the deadliest game of all." />
+        tools:text="Shang-Chi must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization." />
 </LinearLayout>

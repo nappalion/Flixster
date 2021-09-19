@@ -28,7 +28,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### Notes
 
-Describe any challenges encountered while building the app.
+This was my first try at the bonus tasks, and it took me a while to get the hang of coding in Android Studio without a video guide. I was really stuck on the shared element transition because I was just confused with how I could implement it between MainActivity and DetailActivity when MainActivity has a RecyclerView. I then completely missed a part in the docs where I could use Pair to share element transitions with.
 
 ## Open-source libraries used
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
